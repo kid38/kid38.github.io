@@ -8,15 +8,14 @@
 Links:
 </br>
   <script>
-  
-  var req = new XMLHttpRequest();
-  req.open('GET', document.location, false);
-  req.send(null);
-  var headers = req.getAllResponseHeaders().toLowerCase();
-  alert(headers);
  
   $( document ).ready(function() {
     $( "#kb_link" ).text( "Test." );
+    var req = new XMLHttpRequest();
+    req.open('GET', document.location, false);
+    req.send(null);
+    var headers = req.getAllResponseHeaders().toLowerCase();
+    alert(headers);
   });
  
   </script>
