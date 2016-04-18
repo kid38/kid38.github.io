@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>EVE system links</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+Links:
+</br>
+  <script>
+  
+  var req = new XMLHttpRequest();
+  req.open('GET', document.location, false);
+  req.send(null);
+  var headers = req.getAllResponseHeaders().toLowerCase();
+  alert(headers);
+ 
+  $( document ).ready(function() {
+    $( "#kb_link" ).text( "Test." );
+  });
+ 
+  </script>
+<div id="kb_link"><a target = "_blank" href="">This system's killboard</a></div>
+</body>
+</html>
