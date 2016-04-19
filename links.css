@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+	font-family: Helvetica;
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: yellow;
+}
+
+.s10{
+	color: #33ffff;
+}
+
+.s09{
+	color: #4cf6c5;
+}
+
+.s08{
+	color: #03f24a;
+}
+
+.s07{
+	color: #01f501;
+}
+
+.s06{
+	color: #93f532;
+}
+
+.s05{
+	color: #f5f502;
+}
+
+.s04{
+	color: #dc7b02;
+}
+
+.s03{
+	color: #ff6600;
+}
+
+.s02{
+	color: #f54b02;
+}
+
+.s01{
+	color: #dc3201;
+}
+
+.s00{
+	color: #ff0000;
+}
+
+.panel{
+	padding: 3px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	background: black;
+	display: none;
+	position: absolute;
+	z-index: 10;
+	left: 5px;
+	top: 23px;
+}
+
+.panel:before
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 10%;
+	top: -17px;
+	border: 8px solid;
+	border-color: transparent transparent gray transparent;
+}
+
+.panel:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 10%;
+	top: -15px;
+	border: 8px solid;
+	border-color: transparent transparent black transparent;
+}
+
+.waypoint{
+    width:10px;
+    height:10px;
+	float:left;
+	margin:1px;
+    /*background:blue;*/
+}
+
+.tradehubtext{
+	/*top: 50px;*/
+	width: 207px;
+	position: relative;
+}
+
+div.tradehubtext:hover  > *{
+	display:block;
+}
+
+.w10{
+	background: #33ffff;
+}
+
+.w09{
+	background: #4cf6c5;
+}
+
+.w08{
+	background: #03f24a;
+}
+
+.w07{
+	background: #01f501;
+}
+
+.w06{
+	background: #93f532;
+}
+
+.w05{
+	background: #f5f502;
+}
+
+.w04{
+	background: #dc7b02;
+}
+
+.w03{
+	background: #ff6600;
+}
+
+.w02{
+	background: #f54b02;
+}
+
+.w01{
+	background: #dc3201;
+}
+
+.w00{
+	background: #ff0000;
+}
