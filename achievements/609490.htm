@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html class=" responsive" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#171a21">
+    <title>Minit :: KiD #38
+    </title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+    <link
+        href="https://community.cloudflare.steamstatic.com/public/shared/css/motiva_sans.css?v=GfSjbGKcNYaQ&amp;l=english&amp;_cdn=cloudflare"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://community.cloudflare.steamstatic.com/public/shared/css/buttons.css?v=uR_4hRD_HUln&amp;l=english&amp;_cdn=cloudflare"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://community.cloudflare.steamstatic.com/public/shared/css/shared_global.css?v=oFxkES9LSLOw&amp;l=english&amp;_cdn=cloudflare"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://community.cloudflare.steamstatic.com/public/css/globalv2.css?v=_B4lAraJ1uky&amp;l=english&amp;_cdn=cloudflare"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://community.cloudflare.steamstatic.com/public/css/skin_1/playerstats_generic.css?v=75gn-uqnpZ4-&amp;l=english&amp;_cdn=cloudflare"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://community.cloudflare.steamstatic.com/public/css/skin_1/profilev2.css?v=3y90VjwIbhlO&amp;l=english&amp;_cdn=cloudflare"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://community.cloudflare.steamstatic.com/public/shared/css/shared_responsive.css?v=pqJ4scPK8PIv&amp;l=english&amp;_cdn=cloudflare"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://community.cloudflare.steamstatic.com/public/css/skin_1/header.css?v=kSY7-qhkPHds&amp;l=english&amp;_cdn=cloudflare"
+        rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        var __PrototypePreserve = [];
+        __PrototypePreserve[0] = Array.from;
+        __PrototypePreserve[1] = Array.prototype.filter;
+        __PrototypePreserve[2] = Array.prototype.flatMap;
+        __PrototypePreserve[3] = Array.prototype.find;
+        __PrototypePreserve[4] = Array.prototype.some;
+        __PrototypePreserve[5] = Function.prototype.bind;
+        __PrototypePreserve[6] = HTMLElement.prototype.scrollTo;
+    </script>
+    <script src="luxon.js"></script>
+    <script type="text/javascript"
+        src="https://community.cloudflare.steamstatic.com/public/javascript/prototype-1.7.js?v=.55t44gwuwgvw&amp;_cdn=cloudflare"></script>
+    <script type="text/javascript">
+        Array.from = __PrototypePreserve[0] || Array.from;
+        Array.prototype.filter = __PrototypePreserve[1] || Array.prototype.filter;
+        Array.prototype.flatMap = __PrototypePreserve[2] || Array.prototype.flatMap;
+        Array.prototype.find = __PrototypePreserve[3] || Array.prototype.find;
+        Array.prototype.some = __PrototypePreserve[4] || Array.prototype.some;
+        Function.prototype.bind = __PrototypePreserve[5] || Function.prototype.bind;
+        HTMLElement.prototype.scrollTo = __PrototypePreserve[6] || HTMLElement.prototype.scrollTo;
+        var DateTime = luxon.DateTime;
+    </script>
+    <script
+        type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/community.cloudflare.steamstatic.com\/public\/";</script>
+    <script type="text/javascript"
+        src="https://community.cloudflare.steamstatic.com/public/javascript/scriptaculous/_combined.js?v=OeNIgrpEF8tL&amp;l=english&amp;_cdn=cloudflare&amp;load=effects,controls,slider,dragdrop"></script>
+    <script type="text/javascript"
+        src="https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=eJihdz6dPAZZ&amp;l=english&amp;_cdn=cloudflare"></script>
+    <script type="text/javascript"
+        src="https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&amp;_cdn=cloudflare"></script>
+    <script type="text/javascript"
+        src="https://community.cloudflare.steamstatic.com/public/shared/javascript/tooltip.js?v=.zYHOpI1L3Rt0&amp;_cdn=cloudflare"></script>
+    <script type="text/javascript"
+        src="https://community.cloudflare.steamstatic.com/public/shared/javascript/shared_global.js?v=dqzsWj6QpMLG&amp;l=english&amp;_cdn=cloudflare"></script>
+    <script
+        type="text/javascript">Object.seal && [Object, Array, String, Number].map(function (builtin) { Object.seal(builtin.prototype); });</script>
+    <script type="text/javascript">$J = jQuery.noConflict();
+        if (typeof JSON != 'object' || !JSON.stringify || !JSON.parse) { document.write("<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/community.cloudflare.steamstatic.com\/public\/javascript\/json2.js?v=pmScf4470EZP&amp;l=english&amp;_cdn=cloudflare\" ><\/script>\n"); };
+    </script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function (event) {
+            SetupTooltips({ tooltipCSSClass: 'community_tooltip' });
+        });
+    </script>
+    <script type="text/javascript"
+        src="https://community.cloudflare.steamstatic.com/public/javascript/playerstats_generic_functions.js?v=.R9pV9vjLi0Ma&amp;_cdn=cloudflare"></script>
+    <script type="text/javascript"
+        src="https://community.cloudflare.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=pSvIAKtunfWg&amp;l=english&amp;_cdn=cloudflare"></script>
+    <link rel="image_src"
+        href="https://avatars.cloudflare.steamstatic.com/056ccaa3883bf2bb54e7221cd93ac88d5c914451_full.jpg">
+</head>
+
+<body class="flat_page migrated_profile_page responsive_page ">
+    <div class="responsive_page_frame with_header">
+
+        <div class="responsive_page_content">
+
+            <div id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+                <div class="content" width="176" height="44">
+                    <!-- <div class="logo">
+                        <span id="logo_holder">
+                            <a href="https://store.steampowered.com/">
+                                <img src="https://community.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
+                                    width="176" height="44">
+                            </a>
+                        </span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="responsive_page_template_content" id="responsive_page_template_content"
+                data-panel="{&quot;autoFocus&quot;:true}">
+
+                <div class="pagecontent no_header profile_subpage_column">
+
+
+                    <div class="profile_small_header_bg">
+                        <div class="profile_small_header_texture"
+                            data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+                            <a href="https://steamcommunity.com/id/kid38">
+                                <div class="profile_small_header_avatar">
+                                    <div class="playerAvatar medium online">
+                                        <img
+                                            src="https://avatars.cloudflare.steamstatic.com/056ccaa3883bf2bb54e7221cd93ac88d5c914451_medium.jpg">
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="profile_small_header_text">
+                                <span class="profile_small_header_name">
+                                    <a class="whiteLink persona_name_text_content"
+                                        href="https://steamcommunity.com/id/kid38">
+                                        KiD #38 </a>
+                                </span>
+                                <span class="profile_small_header_arrow">&raquo;</span>
+                                <a class="whiteLink" href="https://steamcommunity.com/id/kid38/games/"><span
+                                        class="profile_small_header_location">Games</span></a>
+                                <span class="profile_small_header_arrow">&raquo;</span>
+                                <a class="whiteLink" href=""><span
+                                        class="profile_small_header_location">Minit</span></a>
+
+                            </div>
+                            <div class="profile_small_header_additional">
+                                <div class="gameLogo"> <a href="https://steamcommunity.com/app/609490"><img
+                                            src="https://cdn.cloudflare.steamstatic.com/steam/apps/609490/capsule_184x69.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- main body -->
+                    <div id="BG_bottom" class="maincontent">
+                        <div id="mainContents">
+                            <div id="topSummaryBoxContent">
+                                <div id="topSummaryLeft">
+                                    <br clear="left" />
+                                    <br clear="left" />
+                                    <a href="https://steamcommunity.com/stats/609490/achievements/">View global
+                                        achievement stats</a>
+                                </div>
+                                <div id="topSummaryAchievements">
+                                    <div>
+                                        2 of 25 (8%) achievements earned: </div>
+                                    <div class="achieveBar">
+                                        <div class="achieveBarProgress" style="width: 8%;"></div>
+                                    </div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </div>
+
+                            <div id="tabs">
+                                <div class="tab" id="personalAchieveTabOn">
+                                    <div class="tabOn">Personal Achievements</div>
+                                </div>
+                                <div class="tab" id="personalAchieveTabOff" style="display:none;">
+                                    <div class="tabOff"><a href="javascript:switchTab( 'personalAchieve' )">Personal
+                                            Achievements</a></div>
+                                </div>
+                            </div>
+                            <div id="subtabs">&nbsp;</div>
+
+                            <div id="personalAchieve" class="achievements_list ">
+
+                                <!--<h1 class="achieveHeader">Personal Achievements</h1>-->
+
+
+
+                                                                        <div data-panel="{&quot;autoFocus&quot;:true,&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}"
+                                                                            class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/1d98377a4e1b68a72dd56f2859ad059095c88a77.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">ADVENTURER</h3>
+                                                                                    <h5>FIND YOUR FIRST ITEM</h5>
+                                                                                </div>
+                                                                                <div class="achieveUnlockTime">
+                                                                                    Unlocked 3 Nov @ 3:01 AM
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;autoFocus&quot;:true,&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}"
+                                                                            class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/f4d3c0570d30888dd3803ea638d7a91cd0f228f5.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">FIRST AIDER</h3>
+                                                                                    <h5>FIND YOUR FIRST HEART</h5>
+                                                                                </div>
+                                                                                <div class="achieveUnlockTime">
+                                                                                    Unlocked 3 Nov @ 3:04 AM
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                <br />
+                                <br />
+                                <br />
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/5d2cd097bf70ee3cedce4b3655c54ea537d49324.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">COLLECTOR</h3>
+                                                                                    <h5 class="ellipsis">FIND ALL ITEMS</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/96cd4361e741f392cc5fc9461e586210833a0070.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">TREASURE HUNTER</h3>
+                                                                                    <h5 class="ellipsis">FIND YOUR FIRST COIN</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/74df15883e665c049f42c45f303e543d1cee13e6.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">TREASURE HOARDER</h3>
+                                                                                    <h5 class="ellipsis">FIND ALL COINS</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/1e86a4cf508ac7fe0310492e13e3713ff06e7a5a.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">FULL AIDER</h3>
+                                                                                    <h5 class="ellipsis">FIND ALL HEARTS</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/0c0ed6619c10778bd0ed08b5f945e8071f9652df.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">MARINE ENTHUSIAST</h3>
+                                                                                    <h5 class="ellipsis">FIND YOUR FIRST TENTACLE</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/ea80fb0dd7727fd3b6a444bfb88c117a04479515.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">MARINE BIOLOGIST</h3>
+                                                                                    <h5 class="ellipsis">FIND ALL TENTACLES</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/abf684d038683bb3c7f6d1f4b4ef07b35bc3c422.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">BEST FRIEND</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/3defa0dc0c4eb8b2d18b14f368aa101c78120760.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">DOG WASHER</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/581f92eb9aecfec5006d6c573e02f703c4241e09.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">LISTENER</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/881501368a9e22802b19ba8a13a1c69a7237e4d6.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">ARCHEOLOGIST</h3>
+                                                                                    <h5 class="ellipsis">SOLVE ALL THE PUZZLES IN THE SECRET TEMPLE</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/32ea2dfbf106664631129cfb9b8d9da5a4869a0c.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">EXPLORER</h3>
+                                                                                    <h5 class="ellipsis">FIND AND DEFEAT THE OASIS GHOST</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/ed3a4f7c5251e674f11ab37d72abb57b9904e291.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">EMPLOYEE OF THE MONTH</h3>
+                                                                                    <h5 class="ellipsis">FIND ALL HOTEL GUESTS</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/e193957ace30d8565ebe571217e28215858e95f2.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">GHOST HUNTER</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/0cd37acefd0c61f345215705a37d266114b3bf37.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">SAFETY INSPECTOR</h3>
+                                                                                    <h5 class="ellipsis">SHUT DOWN THE SWORD FACTORY</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/a21df39c789b9b621cd81684de962fa6b3d14229.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">TOURIST</h3>
+                                                                                    <h5 class="ellipsis">VISIT THE ISLAND</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/3ee25c0353090a684bfa4f8ac1ff689ad250bfc0.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">HOME OWNER</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/da8e21e0d6628ba8efac426961c61580b4e6d7df.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">TRAVELER</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/f7f623cc9fae683eecdf14685cb34546464b9671.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">WORLD TRAVELER</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/f1b4e73cbf88ef4b1fe38b2e9395f8920f0a7825.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">PUNCTUAL</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/0ae2577c2683f95605d3386991b27c98c69a835b.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">MINIT</h3>
+                                                                                    <h5 class="ellipsis">COMPLETE THE GAME</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/f04b8f62644a2637a0736fb946bf2cfeb07e6106.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">ANOTHER MINIT</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/eb262f49a6a76194d304fbe6fae90d87f237806d.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">HI MY NAME IS MARY</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/9e8b38a6eca5056aeef83b3a8aab22a79b318400.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">PACIFIST, SORT OF</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/8f5e99a75dac4bb302d4de3921792ec1f3b2c576.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">MINIMALIST</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="achieveRow">
+                                                                            <div class="achieveImgHolder">
+                                                                                <img
+                                                                                    src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609490/0e5416e0510b78a3d0775a8fde39de7d78a4149a.jpg">
+                                                                            </div>
+                                                                            <div class="achieveTxtHolder">
+                                                                                <div class="achieveTxt">
+                                                                                    <h3 class="ellipsis">CONNOISSEUR</h3>
+                                                                                    <h5 class="ellipsis"></h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- responsive_page_content -->
+        </div> <!-- responsive_page_frame -->
+</body>
+
+</html>
